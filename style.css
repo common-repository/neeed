@@ -1,0 +1,168 @@
+/* Global */ 
+.clearfix{
+	clear: both;
+}
+
+#neeed_error{
+	background-color: #e46c6c;
+	border: 1px solid #e46c6c;
+	padding: 10px;
+	color: #fff;
+}
+
+#neeed_error p{
+	color: #fff; 
+}
+
+
+/* Widget */ 
+
+#neeed_widget{}
+
+#neeed_widget h2{
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#neeed_widget ul{
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#neeed_widget li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-bottom: 10px;
+}
+#neeed_widget img{
+	margin: 0;
+	padding: 0;
+	width: 45%;
+	float: left;
+}
+#neeed_widget p.powered{
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Post galerie */ 
+
+#neeed_gal{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#neeed_gal .neeed_owner{
+	padding-top: 15px;
+	border-top: 1px solid #eee; 
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee; 
+	margin-bottom: 10px;
+}
+
+#neeed_gal .neeed_profile{
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	
+}
+
+#neeed_gal .neeed_owner h4{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+#neeed_gal .neeed_owner p{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+#neeed_gal ul{
+	padding: 0;
+	margin: 0;
+}
+
+#neeed_gal li{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	width: 31%;
+	margin: 1%;
+}
+#neeed_gal img{
+	width: 100%;
+}
+
+
+/* Admin panel */ 
+
+#neeed_admin{}
+
+#neeed_admin .intro{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#neeed_admin .intro .logo{
+	margin-top: 20px;
+}
+#neeed_admin .intro h1{
+	font-size: 3em;
+	font-weight: 100;
+}
+
+#neeed_admin .no-key{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+#neeed_admin .no-key img{
+	float: left;
+	margin-right: 10px;
+	margin-top: -7px;
+}
+#neeed_admin .no-key p{
+	margin-left: 60px;
+}
+
+#neeed_admin .no-key input[type="text"]{
+	width: 100%;
+	padding: 5px;
+}
+
+#neeed_admin .col{
+	width: 45%; 
+	float: left;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+#neeed_admin .col h2{
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd; 
+}
+
+#neeed_admin .form_group{
+	margin-top: 10px;
+}
+
+#neeed_admin .form_group label{
+	display: block;
+	margin-bottom: 5px;
+}
+#neeed_admin .form_group input[type="text"]{
+	width: 80%;
+	padding: 5px;
+}
